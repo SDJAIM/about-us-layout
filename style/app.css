@@ -1,0 +1,105 @@
+* { 
+  box-sizing: border-box; 
+}
+
+button {
+  background-color: transparent;
+  border: none;
+}
+
+ul { 
+  list-style: none; 
+  padding: 0; 
+  margin: 0; 
+}
+
+img {
+  max-width: 100%;
+  object-fit: cover;
+  
+}
+
+h1, h2, h3, h4, h5, h6, span, li, label, a { 
+  margin: 0;
+  font-family: "Roboto", serif;
+  font-style: normal
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  justify-content: center;
+}
+
+img, picture {
+  object-fit: cover;
+  width: 100%;
+}
+
+.who-are-we {
+  display: flex;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  padding: 2rem;
+  width: 80%;
+}
+
+.text-container {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  padding: 0 2rem;
+}
+
+.purple-button {
+  background-color: hsl(264, 100%, 94%);
+  color: hsl(283, 41%, 66%);
+  padding: 0.5rem;
+  border-radius: 25px;
+  width: 20%;
+  text-align: center;
+}
+
+.purple-button h1 {
+  font-size: 1rem; 
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+h3 {
+  color: hsl(0, 1%, 59%);  
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.numbers-container {
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.number-box {
+  color: #1ac673;
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+.text-small {
+  color: hsl(0, 1%, 59%);  
+  font-size: 1rem;
+  font-weight: 400;
+  margin-top: 0.5rem;
+}
